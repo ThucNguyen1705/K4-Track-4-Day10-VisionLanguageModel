@@ -1,0 +1,63 @@
+{
+  "n_images": 311,
+  "parse_valid_rate": 1.0,
+  "missing_predictions": 0,
+  "micro": {
+    "precision": 0.3548387096774194,
+    "recall": 0.2641509433962264,
+    "f1": 0.3028515240904621,
+    "tp": 154,
+    "fp": 280,
+    "fn": 429
+  },
+  "per_class": {
+    "pothole": {
+      "precision": 0.3287671232876712,
+      "recall": 0.19834710743801653,
+      "f1": 0.24742268041237114,
+      "tp": 24,
+      "fp": 49,
+      "fn": 97
+    },
+    "crack": {
+      "precision": 0.23018867924528302,
+      "recall": 0.2040133779264214,
+      "f1": 0.21631205673758863,
+      "tp": 61,
+      "fp": 204,
+      "fn": 238
+    },
+    "manhole": {
+      "precision": 0.71875,
+      "recall": 0.4233128834355828,
+      "f1": 0.5328185328185328,
+      "tp": 69,
+      "fp": 27,
+      "fn": 94
+    },
+    "other": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "mean_iou": 0.6836941802918896,
+  "fp_per_image": 0.9003215434083601,
+  "f1_ci95": [
+    0.2618384401114206,
+    0.3462686567164179
+  ],
+  "score_version": 1,
+  "name": "E5 GRPO",
+  "dataset_version": "d10-21e4070301",
+  "split": "test",
+  "coord": "norm1000",
+  "meta": {
+    "trainable_params": 33030144,
+    "peak_vram_gb": 5.31,
+    "train_minutes": 24.0
+  }
+}

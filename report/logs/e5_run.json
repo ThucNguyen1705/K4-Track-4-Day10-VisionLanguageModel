@@ -1,0 +1,16 @@
+{
+  "setup": "E5-GRPO",
+  "init": "work/E1r",
+  "trainable_params": 33030144,
+  "peak_vram_gb": 5.31,
+  "train_minutes": 24.0,
+  "train_images": 1280,
+  "num_generations": 4,
+  "max_completion_length": 128,
+  "max_steps": 60,
+  "learning_rate": 5e-06,
+  "beta": 0.0,
+  "per_device_train_batch_size": 4,
+  "gradient_accumulation_steps": 2,
+  "loss_type": "grpo"
+}
