@@ -1,0 +1,62 @@
+{
+  "encoding": {
+    "image_grid_thw": [
+      1,
+      22,
+      40
+    ],
+    "visual_tokens": 220,
+    "answer_tokens": 249,
+    "total_tokens": 562
+  },
+  "block_params": {
+    "visual_total": 415347712,
+    "visual.merger": 27271680,
+    "visual.deepstack_merger_list": 81833472,
+    "language_model": 4022468096,
+    "lm_head": 388956160,
+    "vit_without_projector": 306242560,
+    "total": 4826771968
+  },
+  "tie_word_embeddings": true,
+  "skip_modules": {
+    "['visual', 'lm_head']": {
+      "linear_quantized": 356,
+      "visual_quantized": 104,
+      "projector_quantized": 8,
+      "lm_head_quantized": false
+    },
+    "['visual', 'model.visual', 'lm_head']": {
+      "linear_quantized": 252,
+      "visual_quantized": 0,
+      "projector_quantized": 0,
+      "lm_head_quantized": false
+    }
+  },
+  "trainable": {
+    "E1": {
+      "lora_modules": 252,
+      "trainable_params": 33030144,
+      "lora_llm": 33030144,
+      "lora_vit": 0,
+      "projector": 0,
+      "other": 0
+    },
+    "E2": {
+      "lora_modules": 252,
+      "trainable_params": 142135296,
+      "lora_llm": 33030144,
+      "lora_vit": 0,
+      "projector": 109105152,
+      "other": 0
+    },
+    "E3": {
+      "lora_modules": 348,
+      "trainable_params": 148426752,
+      "lora_llm": 33030144,
+      "lora_vit": 6291456,
+      "projector": 109105152,
+      "other": 0
+    }
+  }
+}
