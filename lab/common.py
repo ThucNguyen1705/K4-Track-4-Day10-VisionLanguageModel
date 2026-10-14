@@ -8,7 +8,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from scripts.labcommon import CLASSES, read_jsonl  # noqa: E402,F401
+from scripts.labcommon import CLASSES, read_jsonl, write_jsonl  # noqa: E402,F401
 from scripts.score import iou_xyxy, parse_output  # noqa: E402
 
 MODEL_ID = "Qwen/Qwen3-VL-4B-Instruct"
