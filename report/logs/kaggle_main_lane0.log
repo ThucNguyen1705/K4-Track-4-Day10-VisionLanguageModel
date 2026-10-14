@@ -1,0 +1,352 @@
+>>> python -m lab.train --setup E1 --out work/smoke/E1 --max-steps 2 && python -m lab.grpo --init work/smoke/E1 --out work/smoke/E5 --max-steps 2
+E1: 1422 ảnh train, r=16 alpha=32 lr=0.0002 bs=2x4 steps=2 coord=norm1000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 1/713 [00:00<11:16,  1.05it/s]Loading weights:   0%|          | 3/713 [00:01<03:56,  3.00it/s]Loading weights:   1%|          | 5/713 [00:01<02:17,  5.15it/s]Loading weights:   2%|▏         | 14/713 [00:01<00:39, 17.82it/s]Loading weights:   3%|▎         | 18/713 [00:01<00:33, 20.74it/s]Loading weights:   4%|▎         | 25/713 [00:01<00:22, 29.99it/s]Loading weights:   4%|▍         | 30/713 [00:01<00:21, 32.30it/s]Loading weights:   5%|▌         | 36/713 [00:01<00:17, 38.50it/s]Loading weights:   6%|▌         | 41/713 [00:02<00:17, 38.22it/s]Loading weights:   7%|▋         | 47/713 [00:02<00:15, 42.93it/s]Loading weights:   7%|▋         | 52/713 [00:02<00:16, 40.59it/s]Loading weights:   8%|▊         | 58/713 [00:02<00:14, 44.49it/s]Loading weights:   9%|▉         | 63/713 [00:02<00:15, 41.93it/s]Loading weights:  10%|▉         | 69/713 [00:02<00:14, 45.85it/s]Loading weights:  10%|█         | 74/713 [00:02<00:14, 43.06it/s]Loading weights:  11%|█         | 80/713 [00:02<00:13, 45.82it/s]Loading weights:  12%|█▏        | 85/713 [00:03<00:14, 43.01it/s]Loading weights:  13%|█▎        | 91/713 [00:03<00:13, 46.69it/s]Loading weights:  13%|█▎        | 96/713 [00:03<00:14, 43.84it/s]Loading weights:  14%|█▍        | 102/713 [00:03<00:12, 47.54it/s]Loading weights:  15%|█▌        | 107/713 [00:03<00:13, 44.08it/s]Loading weights:  16%|█▌        | 113/713 [00:03<00:12, 47.74it/s]Loading weights:  17%|█▋        | 118/713 [00:03<00:13, 44.06it/s]Loading weights:  17%|█▋        | 124/713 [00:03<00:12, 47.34it/s]Loading weights:  18%|█▊        | 129/713 [00:03<00:13, 43.26it/s]Loading weights:  19%|█▉        | 135/713 [00:04<00:12, 46.66it/s]Loading weights:  20%|█▉        | 140/713 [00:04<00:13, 43.61it/s]Loading weights:  20%|██        | 146/713 [00:04<00:12, 47.19it/s]Loading weights:  21%|██        | 151/713 [00:04<00:12, 43.72it/s]Loading weights:  22%|██▏       | 157/713 [00:04<00:11, 47.50it/s]Loading weights:  23%|██▎       | 162/713 [00:04<00:12, 44.24it/s]Loading weights:  24%|██▎       | 168/713 [00:04<00:11, 48.07it/s]Loading weights:  24%|██▍       | 173/713 [00:04<00:12, 44.59it/s]Loading weights:  25%|██▌       | 179/713 [00:05<00:11, 48.07it/s]Loading weights:  26%|██▌       | 184/713 [00:05<00:11, 44.29it/s]Loading weights:  27%|██▋       | 190/713 [00:05<00:10, 47.90it/s]Loading weights:  27%|██▋       | 195/713 [00:05<00:11, 44.38it/s]Loading weights:  28%|██▊       | 201/713 [00:05<00:10, 47.69it/s]Loading weights:  29%|██▉       | 206/713 [00:05<00:11, 44.56it/s]Loading weights:  30%|██▉       | 212/713 [00:05<00:10, 48.22it/s]Loading weights:  30%|███       | 217/713 [00:05<00:11, 44.40it/s]Loading weights:  31%|███▏      | 223/713 [00:05<00:10, 47.93it/s]Loading weights:  32%|███▏      | 228/713 [00:06<00:10, 44.33it/s]Loading weights:  33%|███▎      | 234/713 [00:06<00:10, 47.34it/s]Loading weights:  34%|███▎      | 239/713 [00:06<00:10, 43.55it/s]Loading weights:  34%|███▍      | 245/713 [00:06<00:09, 47.06it/s]Loading weights:  35%|███▌      | 250/713 [00:06<00:10, 43.74it/s]Loading weights:  36%|███▌      | 256/713 [00:06<00:09, 47.46it/s]Loading weights:  37%|███▋      | 261/713 [00:06<00:10, 44.26it/s]Loading weights:  37%|███▋      | 267/713 [00:06<00:09, 47.91it/s]Loading weights:  38%|███▊      | 272/713 [00:07<00:10, 43.47it/s]Loading weights:  39%|███▉      | 278/713 [00:07<00:09, 46.85it/s]Loading weights:  40%|███▉      | 283/713 [00:07<00:10, 39.64it/s]Loading weights:  41%|████      | 289/713 [00:07<00:09, 43.74it/s]Loading weights:  41%|████      | 294/713 [00:07<00:10, 41.50it/s]Loading weights:  42%|████▏     | 300/713 [00:07<00:09, 45.38it/s]Loading weights:  43%|████▎     | 305/713 [00:07<00:09, 42.50it/s]Loading weights:  44%|████▎     | 311/713 [00:07<00:08, 46.28it/s]Loading weights:  44%|████▍     | 316/713 [00:08<00:09, 43.30it/s]Loading weights:  45%|████▌     | 322/713 [00:08<00:08, 46.71it/s]Loading weights:  46%|████▌     | 327/713 [00:08<00:08, 43.23it/s]Loading weights:  47%|████▋     | 333/713 [00:08<00:08, 46.67it/s]Loading weights:  47%|████▋     | 338/713 [00:08<00:08, 43.33it/s]Loading weights:  48%|████▊     | 344/713 [00:08<00:07, 46.41it/s]Loading weights:  49%|████▉     | 349/713 [00:08<00:08, 42.98it/s]Loading weights:  50%|████▉     | 355/713 [00:08<00:07, 46.63it/s]Loading weights:  50%|█████     | 360/713 [00:09<00:08, 43.29it/s]Loading weights:  51%|█████▏    | 366/713 [00:09<00:07, 46.78it/s]Loading weights:  52%|█████▏    | 371/713 [00:09<00:07, 43.62it/s]Loading weights:  53%|█████▎    | 377/713 [00:09<00:07, 47.16it/s]Loading weights:  54%|█████▎    | 382/713 [00:09<00:07, 43.02it/s]Loading weights:  54%|█████▍    | 388/713 [00:09<00:06, 46.53it/s]Loading weights:  55%|█████▌    | 393/713 [00:09<00:07, 43.20it/s]Loading weights:  60%|██████    | 430/713 [00:09<00:02, 125.23it/s]Loading weights:  68%|██████▊   | 487/713 [00:10<00:00, 243.00it/s]Loading weights:  75%|███████▌  | 538/713 [00:10<00:00, 315.73it/s]Loading weights:  84%|████████▎ | 596/713 [00:10<00:00, 386.07it/s]Loading weights:  92%|█████████▏| 654/713 [00:10<00:00, 437.34it/s]Loading weights:  98%|█████████▊| 700/713 [00:10<00:00, 330.51it/s]Loading weights: 100%|██████████| 713/713 [00:10<00:00, 67.01it/s] 
+LoRA khớp 252 module; tham số huấn luyện 33,030,144 {'lora_llm': 33030144, 'lora_vit': 0, 'projector': 0, 'other': 0}
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+{"step": 1, "epoch": 0, "loss": 1.7256, "grad_norm": 4.575, "lr": 0.0002, "min": 0.18, "vram_gb": 5.25}
+{"step": 2, "epoch": 0, "loss": 1.0891, "grad_norm": 3.117, "lr": 0.0, "min": 0.29, "vram_gb": 5.25}
+RUN {"setup": "E1", "trainable_params": 33030144, "trainable_groups": {"lora_llm": 33030144, "lora_vit": 0, "projector": 0, "other": 0}, "lora_modules": 252, "peak_vram_gb": 5.25, "train_minutes": 0.3, "r": 16, "alpha": 32, "lr": 0.0002, "batch_size": 2, "grad_accum": 4, "max_steps": 2, "train_images": 1422, "train_fraction": 1.0, "coord": "norm1000", "seed": 42, "gpu": "Tesla T4"}
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 1/713 [00:00<10:48,  1.10it/s]Loading weights:   0%|          | 3/713 [00:01<03:19,  3.56it/s]Loading weights:   1%|          | 5/713 [00:01<01:58,  5.96it/s]Loading weights:   2%|▏         | 14/713 [00:01<00:34, 20.13it/s]Loading weights:   3%|▎         | 18/713 [00:01<00:30, 23.06it/s]Loading weights:   4%|▎         | 25/713 [00:01<00:21, 32.73it/s]Loading weights:   4%|▍         | 30/713 [00:01<00:19, 34.61it/s]Loading weights:   5%|▌         | 37/713 [00:01<00:17, 37.62it/s]Loading weights:   6%|▌         | 44/713 [00:01<00:14, 44.91it/s]Loading weights:   7%|▋         | 50/713 [00:02<00:16, 39.76it/s]Loading weights:   8%|▊         | 58/713 [00:02<00:13, 48.06it/s]Loading weights:   9%|▉         | 64/713 [00:02<00:14, 46.04it/s]Loading weights:  10%|▉         | 70/713 [00:02<00:14, 44.71it/s]Loading weights:  11%|█         | 77/713 [00:02<00:12, 50.59it/s]Loading weights:  12%|█▏        | 83/713 [00:02<00:14, 43.35it/s]Loading weights:  13%|█▎        | 91/713 [00:02<00:12, 50.95it/s]Loading weights:  14%|█▎        | 97/713 [00:03<00:12, 47.69it/s]Loading weights:  14%|█▍        | 103/713 [00:03<00:13, 45.84it/s]Loading weights:  15%|█▌        | 110/713 [00:03<00:11, 51.44it/s]Loading weights:  16%|█▋        | 116/713 [00:03<00:13, 43.78it/s]Loading weights:  17%|█▋        | 124/713 [00:03<00:11, 51.20it/s]Loading weights:  18%|█▊        | 130/713 [00:03<00:12, 48.27it/s]Loading weights:  19%|█▉        | 136/713 [00:03<00:12, 46.21it/s]Loading weights:  20%|██        | 143/713 [00:03<00:11, 51.72it/s]Loading weights:  21%|██        | 149/713 [00:04<00:12, 44.02it/s]Loading weights:  22%|██▏       | 157/713 [00:04<00:10, 51.43it/s]Loading weights:  23%|██▎       | 163/713 [00:04<00:11, 48.38it/s]Loading weights:  24%|██▎       | 169/713 [00:04<00:11, 46.10it/s]Loading weights:  25%|██▍       | 176/713 [00:04<00:10, 51.50it/s]Loading weights:  26%|██▌       | 182/713 [00:04<00:12, 44.00it/s]Loading weights:  27%|██▋       | 190/713 [00:04<00:10, 51.48it/s]Loading weights:  27%|██▋       | 196/713 [00:05<00:10, 48.19it/s]Loading weights:  28%|██▊       | 202/713 [00:05<00:11, 46.13it/s]Loading weights:  29%|██▉       | 209/713 [00:05<00:09, 51.66it/s]Loading weights:  30%|███       | 215/713 [00:05<00:11, 44.03it/s]Loading weights:  31%|███▏      | 223/713 [00:05<00:09, 51.45it/s]Loading weights:  32%|███▏      | 229/713 [00:05<00:10, 48.34it/s]Loading weights:  33%|███▎      | 235/713 [00:05<00:10, 46.34it/s]Loading weights:  34%|███▍      | 242/713 [00:06<00:09, 51.71it/s]Loading weights:  35%|███▍      | 248/713 [00:06<00:10, 43.91it/s]Loading weights:  36%|███▌      | 256/713 [00:06<00:08, 51.23it/s]Loading weights:  37%|███▋      | 262/713 [00:06<00:09, 48.15it/s]Loading weights:  38%|███▊      | 268/713 [00:06<00:09, 44.82it/s]Loading weights:  39%|███▊      | 276/713 [00:06<00:08, 52.65it/s]Loading weights:  40%|███▉      | 282/713 [00:06<00:09, 46.04it/s]Loading weights:  41%|████      | 290/713 [00:07<00:08, 47.93it/s]Loading weights:  42%|████▏     | 300/713 [00:07<00:07, 53.13it/s]Loading weights:  43%|████▎     | 306/713 [00:07<00:08, 49.74it/s]Loading weights:  44%|████▍     | 312/713 [00:07<00:08, 49.04it/s]Loading weights:  45%|████▌     | 322/713 [00:07<00:07, 54.15it/s]Loading weights:  46%|████▌     | 328/713 [00:07<00:07, 51.28it/s]Loading weights:  47%|████▋     | 334/713 [00:07<00:07, 49.62it/s]Loading weights:  48%|████▊     | 344/713 [00:08<00:06, 54.38it/s]Loading weights:  49%|████▉     | 350/713 [00:08<00:07, 51.71it/s]Loading weights:  50%|████▉     | 356/713 [00:08<00:07, 49.72it/s]Loading weights:  51%|█████▏    | 366/713 [00:08<00:06, 55.15it/s]Loading weights:  52%|█████▏    | 372/713 [00:08<00:06, 52.82it/s]Loading weights:  53%|█████▎    | 378/713 [00:08<00:06, 49.44it/s]Loading weights:  54%|█████▍    | 388/713 [00:08<00:05, 54.98it/s]Loading weights:  55%|█████▌    | 394/713 [00:09<00:06, 52.56it/s]Loading weights:  64%|██████▎   | 454/713 [00:09<00:01, 181.28it/s]Loading weights:  74%|███████▍  | 526/713 [00:09<00:00, 314.54it/s]Loading weights:  84%|████████▍ | 598/713 [00:09<00:00, 416.35it/s]Loading weights:  94%|█████████▎| 668/713 [00:09<00:00, 486.42it/s]Loading weights: 100%|██████████| 713/713 [00:09<00:00, 73.84it/s] 
+GRPO: 1280 ảnh train (<= 4 box), khởi tạo từ work/smoke/E1
+tham số huấn luyện GRPO: 33,030,144 {'lora_llm': 33030144, 'lora_vit': 0, 'projector': 0, 'other': 0}
+[transformers] The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'pad_token_id': 151643}.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:12<00:12, 13.00s/it]                                             {'loss': '0', 'grad_norm': '0', 'learning_rate': '5e-06', 'num_tokens': '2736', 'completions/mean_length': '30', 'completions/min_length': '29', 'completions/max_length': '31', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '30', 'completions/min_terminated_length': '29', 'completions/max_terminated_length': '31', 'rewards/iou_reward/mean': '0.2', 'rewards/iou_reward/std': '0', 'reward': '0.2', 'reward_std': '0', 'frac_reward_zero_std': '1', 'entropy': '0.8209', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '12.64', 'epoch': '0.001563'}
+ 50%|█████     | 1/2 [00:13<00:12, 13.00s/it]100%|██████████| 2/2 [00:26<00:00, 13.57s/it]                                             {'loss': '0', 'grad_norm': '0', 'learning_rate': '2.5e-06', 'num_tokens': '5483', 'completions/mean_length': '31.38', 'completions/min_length': '28', 'completions/max_length': '38', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '31.38', 'completions/min_terminated_length': '28', 'completions/max_terminated_length': '38', 'rewards/iou_reward/mean': '0.2', 'rewards/iou_reward/std': '0', 'reward': '0.2', 'reward_std': '0', 'frac_reward_zero_std': '1', 'entropy': '0.7064', 'clip_ratio/low_mean': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/region_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_max': '0', 'step_time': '13.76', 'epoch': '0.003125'}
+100%|██████████| 2/2 [00:26<00:00, 13.57s/it]                                             {'train_runtime': '26.98', 'train_samples_per_second': '0.593', 'train_steps_per_second': '0.074', 'train_loss': '0', 'epoch': '0.003125'}
+100%|██████████| 2/2 [00:26<00:00, 13.57s/it]100%|██████████| 2/2 [00:26<00:00, 13.49s/it]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+RUN {"setup": "E5-GRPO", "init": "work/smoke/E1", "trainable_params": 33030144, "peak_vram_gb": 4.6, "train_minutes": 0.5, "train_images": 1280, "num_generations": 4, "max_completion_length": 128, "max_steps": 60, "learning_rate": 5e-06, "beta": 0.0, "per_device_train_batch_size": 4, "gradient_accumulation_steps": 2, "loss_type": "grpo"}
+<<< rc=0 (python -m lab.train --setup E1 --out work/smoke/E1 --max-ste)
+>>> python -m lab.infer --out work/e0.jsonl
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 1/713 [00:00<11:19,  1.05it/s]Loading weights:   0%|          | 3/713 [00:01<03:30,  3.37it/s]Loading weights:   1%|          | 5/713 [00:01<02:05,  5.66it/s]Loading weights:   2%|▏         | 14/713 [00:01<00:36, 19.18it/s]Loading weights:   3%|▎         | 18/713 [00:01<00:31, 21.95it/s]Loading weights:   4%|▎         | 25/713 [00:01<00:21, 31.28it/s]Loading weights:   4%|▍         | 30/713 [00:01<00:20, 33.25it/s]Loading weights:   5%|▌         | 36/713 [00:01<00:17, 39.20it/s]Loading weights:   6%|▌         | 41/713 [00:01<00:17, 37.82it/s]Loading weights:   7%|▋         | 47/713 [00:02<00:15, 42.91it/s]Loading weights:   7%|▋         | 52/713 [00:02<00:15, 41.60it/s]Loading weights:   8%|▊         | 58/713 [00:02<00:14, 46.24it/s]Loading weights:   9%|▉         | 63/713 [00:02<00:14, 44.03it/s]Loading weights:  10%|▉         | 69/713 [00:02<00:13, 48.10it/s]Loading weights:  11%|█         | 75/713 [00:02<00:13, 45.59it/s]Loading weights:  11%|█▏        | 81/713 [00:02<00:14, 44.01it/s]Loading weights:  12%|█▏        | 88/713 [00:02<00:12, 50.08it/s]Loading weights:  13%|█▎        | 94/713 [00:03<00:14, 42.58it/s]Loading weights:  14%|█▍        | 102/713 [00:03<00:12, 50.35it/s]Loading weights:  15%|█▌        | 108/713 [00:03<00:12, 47.24it/s]Loading weights:  16%|█▌        | 114/713 [00:03<00:13, 45.09it/s]Loading weights:  17%|█▋        | 121/713 [00:03<00:11, 50.38it/s]Loading weights:  18%|█▊        | 127/713 [00:03<00:13, 42.82it/s]Loading weights:  19%|█▉        | 135/713 [00:03<00:11, 50.11it/s]Loading weights:  20%|█▉        | 141/713 [00:04<00:12, 47.08it/s]Loading weights:  21%|██        | 147/713 [00:04<00:12, 45.11it/s]Loading weights:  22%|██▏       | 154/713 [00:04<00:11, 50.40it/s]Loading weights:  22%|██▏       | 160/713 [00:04<00:12, 42.67it/s]Loading weights:  24%|██▎       | 168/713 [00:04<00:10, 50.20it/s]Loading weights:  24%|██▍       | 174/713 [00:04<00:11, 47.28it/s]Loading weights:  25%|██▌       | 180/713 [00:04<00:11, 45.35it/s]Loading weights:  26%|██▌       | 187/713 [00:05<00:10, 51.01it/s]Loading weights:  27%|██▋       | 193/713 [00:05<00:11, 43.41it/s]Loading weights:  28%|██▊       | 201/713 [00:05<00:10, 50.63it/s]Loading weights:  29%|██▉       | 207/713 [00:05<00:10, 47.29it/s]Loading weights:  30%|██▉       | 213/713 [00:05<00:11, 45.36it/s]Loading weights:  31%|███       | 220/713 [00:05<00:09, 50.88it/s]Loading weights:  32%|███▏      | 226/713 [00:05<00:11, 43.25it/s]Loading weights:  33%|███▎      | 234/713 [00:06<00:09, 50.74it/s]Loading weights:  34%|███▎      | 240/713 [00:06<00:09, 47.69it/s]Loading weights:  35%|███▍      | 246/713 [00:06<00:10, 45.53it/s]Loading weights:  35%|███▌      | 253/713 [00:06<00:09, 51.03it/s]Loading weights:  36%|███▋      | 259/713 [00:06<00:10, 43.36it/s]Loading weights:  37%|███▋      | 267/713 [00:06<00:08, 51.00it/s]Loading weights:  38%|███▊      | 273/713 [00:06<00:09, 47.88it/s]Loading weights:  39%|███▉      | 279/713 [00:06<00:09, 45.78it/s]Loading weights:  40%|████      | 286/713 [00:07<00:08, 51.10it/s]Loading weights:  41%|████      | 292/713 [00:07<00:09, 43.55it/s]Loading weights:  42%|████▏     | 300/713 [00:07<00:08, 51.07it/s]Loading weights:  43%|████▎     | 306/713 [00:07<00:08, 47.55it/s]Loading weights:  44%|████▍     | 312/713 [00:07<00:08, 45.19it/s]Loading weights:  45%|████▌     | 322/713 [00:07<00:07, 52.06it/s]Loading weights:  46%|████▌     | 328/713 [00:07<00:07, 49.91it/s]Loading weights:  47%|████▋     | 334/713 [00:08<00:07, 47.63it/s]Loading weights:  48%|████▊     | 342/713 [00:08<00:06, 54.85it/s]Loading weights:  49%|████▉     | 348/713 [00:08<00:07, 46.73it/s]Loading weights:  50%|████▉     | 355/713 [00:08<00:06, 51.46it/s]Loading weights:  51%|█████     | 361/713 [00:08<00:07, 48.26it/s]Loading weights:  51%|█████▏    | 367/713 [00:08<00:07, 46.25it/s]Loading weights:  52%|█████▏    | 374/713 [00:08<00:06, 51.70it/s]Loading weights:  53%|█████▎    | 380/713 [00:09<00:07, 43.83it/s]Loading weights:  54%|█████▍    | 388/713 [00:09<00:06, 51.36it/s]Loading weights:  55%|█████▌    | 394/713 [00:09<00:06, 48.28it/s]Loading weights:  62%|██████▏   | 442/713 [00:09<00:01, 149.43it/s]Loading weights:  70%|███████   | 502/713 [00:09<00:00, 259.94it/s]Loading weights:  79%|███████▉  | 562/713 [00:09<00:00, 345.47it/s]Loading weights:  87%|████████▋ | 622/713 [00:09<00:00, 409.82it/s]Loading weights:  96%|█████████▌| 682/713 [00:09<00:00, 457.98it/s]Loading weights: 100%|██████████| 713/713 [00:10<00:00, 70.73it/s] 
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  8/311 ảnh, 10s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  16/311 ảnh, 19s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  24/311 ảnh, 53s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  32/311 ảnh, 84s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  40/311 ảnh, 118s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  48/311 ảnh, 136s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  56/311 ảnh, 171s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  64/311 ảnh, 181s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  72/311 ảnh, 191s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  80/311 ảnh, 205s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  88/311 ảnh, 240s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  96/311 ảnh, 275s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  104/311 ảnh, 311s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  112/311 ảnh, 346s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  120/311 ảnh, 382s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  128/311 ảnh, 388s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  136/311 ảnh, 402s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  144/311 ảnh, 438s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  152/311 ảnh, 474s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  160/311 ảnh, 484s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  168/311 ảnh, 519s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  176/311 ảnh, 534s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  184/311 ảnh, 540s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  192/311 ảnh, 575s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  200/311 ảnh, 611s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  208/311 ảnh, 621s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  216/311 ảnh, 631s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  224/311 ảnh, 667s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  232/311 ảnh, 677s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  240/311 ảnh, 700s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  248/311 ảnh, 735s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  256/311 ảnh, 771s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  264/311 ảnh, 806s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  272/311 ảnh, 842s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  280/311 ảnh, 878s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  288/311 ảnh, 913s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  296/311 ảnh, 949s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  304/311 ảnh, 984s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  311/311 ảnh, 990s
+vlcsnap-00200 -> '[{"label": "manhole", "bbox_2d": [770, 640, 843, 686]}, {"label": "manhole", "bbox_2d": [909, 786, 998, 822]}]'
+vlcsnap-00201 -> '[]'
+vlcsnap-00202 -> '[{"label": "manhole", "bbox_2d": [309, 686, 399, 714]}]'
+vlcsnap-00203 -> '[]'
+vlcsnap-00204 -> '[{"label": "manhole", "bbox_2d": [257, 627, 325, 657]}]'
+<<< rc=0 (python -m lab.infer --out work/e0.jsonl)
+>>> python -m lab.train --setup E1 --out work/E1 && python -m lab.infer --adapter work/E1/adapter --out work/e1.jsonl
+E1: 1422 ảnh train, r=16 alpha=32 lr=0.0002 bs=2x4 steps=300 coord=norm1000
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 1/713 [00:00<10:47,  1.10it/s]Loading weights:   0%|          | 3/713 [00:01<03:18,  3.57it/s]Loading weights:   1%|          | 5/713 [00:01<01:58,  5.97it/s]Loading weights:   2%|▏         | 14/713 [00:01<00:34, 20.25it/s]Loading weights:   3%|▎         | 18/713 [00:01<00:29, 23.18it/s]Loading weights:   4%|▎         | 25/713 [00:01<00:20, 32.88it/s]Loading weights:   4%|▍         | 30/713 [00:01<00:19, 34.56it/s]Loading weights:   5%|▌         | 36/713 [00:01<00:16, 40.29it/s]Loading weights:   6%|▌         | 41/713 [00:01<00:16, 39.84it/s]Loading weights:   7%|▋         | 47/713 [00:01<00:14, 44.90it/s]Loading weights:   7%|▋         | 52/713 [00:02<00:15, 43.09it/s]Loading weights:   8%|▊         | 58/713 [00:02<00:13, 47.47it/s]Loading weights:   9%|▉         | 64/713 [00:02<00:14, 45.31it/s]Loading weights:  10%|▉         | 70/713 [00:02<00:14, 44.17it/s]Loading weights:  11%|█         | 77/713 [00:02<00:12, 50.52it/s]Loading weights:  12%|█▏        | 83/713 [00:02<00:14, 42.79it/s]Loading weights:  13%|█▎        | 91/713 [00:02<00:12, 50.54it/s]Loading weights:  14%|█▎        | 97/713 [00:03<00:12, 47.70it/s]Loading weights:  14%|█▍        | 103/713 [00:03<00:13, 45.75it/s]Loading weights:  15%|█▌        | 110/713 [00:03<00:11, 51.33it/s]Loading weights:  16%|█▋        | 116/713 [00:03<00:13, 43.36it/s]Loading weights:  17%|█▋        | 124/713 [00:03<00:11, 51.00it/s]Loading weights:  18%|█▊        | 130/713 [00:03<00:12, 47.95it/s]Loading weights:  19%|█▉        | 136/713 [00:03<00:12, 45.05it/s]Loading weights:  20%|██        | 143/713 [00:03<00:11, 50.65it/s]Loading weights:  21%|██        | 149/713 [00:04<00:13, 43.10it/s]Loading weights:  22%|██▏       | 157/713 [00:04<00:10, 51.14it/s]Loading weights:  23%|██▎       | 163/713 [00:04<00:11, 49.20it/s]Loading weights:  24%|██▎       | 169/713 [00:04<00:11, 47.85it/s]Loading weights:  25%|██▍       | 176/713 [00:04<00:10, 53.05it/s]Loading weights:  26%|██▌       | 182/713 [00:04<00:11, 45.96it/s]Loading weights:  27%|██▋       | 191/713 [00:04<00:10, 50.05it/s]Loading weights:  28%|██▊       | 201/713 [00:05<00:09, 54.49it/s]Loading weights:  29%|██▉       | 207/713 [00:05<00:09, 52.09it/s]Loading weights:  30%|██▉       | 213/713 [00:05<00:10, 49.99it/s]Loading weights:  31%|███▏      | 223/713 [00:05<00:09, 54.07it/s]Loading weights:  32%|███▏      | 229/713 [00:05<00:09, 50.54it/s]Loading weights:  33%|███▎      | 235/713 [00:05<00:09, 47.89it/s]Loading weights:  34%|███▍      | 243/713 [00:05<00:08, 54.96it/s]Loading weights:  35%|███▍      | 249/713 [00:06<00:09, 46.84it/s]Loading weights:  36%|███▌      | 256/713 [00:06<00:08, 51.77it/s]Loading weights:  37%|███▋      | 262/713 [00:06<00:09, 49.13it/s]Loading weights:  38%|███▊      | 268/713 [00:06<00:09, 47.94it/s]Loading weights:  39%|███▉      | 278/713 [00:06<00:08, 52.82it/s]Loading weights:  40%|███▉      | 284/713 [00:06<00:08, 50.74it/s]Loading weights:  41%|████      | 290/713 [00:06<00:08, 48.86it/s]Loading weights:  42%|████▏     | 299/713 [00:07<00:07, 58.56it/s]Loading weights:  43%|████▎     | 306/713 [00:07<00:08, 48.44it/s]Loading weights:  44%|████▍     | 312/713 [00:07<00:08, 46.06it/s]Loading weights:  45%|████▍     | 319/713 [00:07<00:07, 51.11it/s]Loading weights:  46%|████▌     | 325/713 [00:07<00:08, 43.74it/s]Loading weights:  47%|████▋     | 333/713 [00:07<00:07, 50.90it/s]Loading weights:  48%|████▊     | 339/713 [00:07<00:07, 47.84it/s]Loading weights:  48%|████▊     | 345/713 [00:08<00:08, 45.71it/s]Loading weights:  49%|████▉     | 352/713 [00:08<00:07, 51.08it/s]Loading weights:  50%|█████     | 358/713 [00:08<00:08, 43.52it/s]Loading weights:  51%|█████▏    | 366/713 [00:08<00:06, 50.91it/s]Loading weights:  52%|█████▏    | 372/713 [00:08<00:07, 47.70it/s]Loading weights:  53%|█████▎    | 378/713 [00:08<00:07, 45.63it/s]Loading weights:  54%|█████▍    | 385/713 [00:08<00:06, 51.07it/s]Loading weights:  55%|█████▍    | 391/713 [00:09<00:07, 43.43it/s]Loading weights:  60%|██████    | 430/713 [00:09<00:02, 119.74it/s]Loading weights:  69%|██████▊   | 490/713 [00:09<00:00, 234.22it/s]Loading weights:  77%|███████▋  | 550/713 [00:09<00:00, 325.47it/s]Loading weights:  86%|████████▌ | 610/713 [00:09<00:00, 393.12it/s]Loading weights:  94%|█████████▍| 670/713 [00:09<00:00, 447.00it/s]Loading weights: 100%|██████████| 713/713 [00:09<00:00, 72.63it/s] 
+LoRA khớp 252 module; tham số huấn luyện 33,030,144 {'lora_llm': 33030144, 'lora_vit': 0, 'projector': 0, 'other': 0}
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+{"step": 1, "epoch": 0, "loss": 1.7256, "grad_norm": 4.575, "lr": 2.6666666666666667e-05, "min": 0.15, "vram_gb": 5.25}
+{"step": 11, "epoch": 0, "loss": 0.8433, "grad_norm": 0.569, "lr": 0.00016, "min": 1.54, "vram_gb": 6.12}
+{"step": 21, "epoch": 0, "loss": 0.7201, "grad_norm": 0.595, "lr": 0.00019978136272187747, "min": 2.97, "vram_gb": 6.12}
+{"step": 31, "epoch": 0, "loss": 0.6351, "grad_norm": 2.081, "lr": 0.00019844870667325073, "min": 4.42, "vram_gb": 6.12}
+{"step": 41, "epoch": 0, "loss": 0.6483, "grad_norm": 0.437, "lr": 0.00019592101668776298, "min": 5.88, "vram_gb": 6.12}
+{"step": 51, "epoch": 0, "loss": 0.6309, "grad_norm": 0.462, "lr": 0.00019222897549773848, "min": 7.34, "vram_gb": 6.14}
+{"step": 61, "epoch": 0, "loss": 0.6091, "grad_norm": 0.427, "lr": 0.00018741739948185257, "min": 8.78, "vram_gb": 6.23}
+{"step": 71, "epoch": 0, "loss": 0.6239, "grad_norm": 0.407, "lr": 0.00018154469465500448, "min": 10.24, "vram_gb": 6.23}
+{"step": 81, "epoch": 0, "loss": 0.6201, "grad_norm": 0.682, "lr": 0.00017468214769841538, "min": 11.69, "vram_gb": 6.23}
+{"step": 91, "epoch": 0, "loss": 0.6931, "grad_norm": 0.523, "lr": 0.00016691306063588583, "min": 13.14, "vram_gb": 6.23}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{"step": 101, "epoch": 0, "loss": 0.6694, "grad_norm": 0.383, "lr": 0.00015833173966007066, "min": 14.63, "vram_gb": 6.23}
+{"step": 111, "epoch": 0, "loss": 0.6669, "grad_norm": 0.427, "lr": 0.0001490423503830508, "min": 16.08, "vram_gb": 6.23}
+{"step": 121, "epoch": 0, "loss": 0.6546, "grad_norm": 0.397, "lr": 0.00013915765340690914, "min": 17.57, "vram_gb": 6.23}
+{"step": 131, "epoch": 0, "loss": 0.6474, "grad_norm": 0.413, "lr": 0.0001287976355627706, "min": 19.02, "vram_gb": 6.23}
+{"step": 141, "epoch": 0, "loss": 0.6651, "grad_norm": 0.527, "lr": 0.00011808805343321099, "min": 20.5, "vram_gb": 6.23}
+{"step": 151, "epoch": 0, "loss": 0.6169, "grad_norm": 0.512, "lr": 0.00010715890683769869, "min": 21.94, "vram_gb": 6.23}
+{"step": 161, "epoch": 0, "loss": 0.5233, "grad_norm": 0.494, "lr": 9.614286081088896e-05, "min": 23.37, "vram_gb": 6.23}
+{"step": 171, "epoch": 0, "loss": 0.694, "grad_norm": 0.356, "lr": 8.517363522881582e-05, "min": 24.8, "vram_gb": 6.23}
+{"step": 181, "epoch": 1, "loss": 0.6275, "grad_norm": 0.452, "lr": 7.438438163073884e-05, "min": 26.26, "vram_gb": 6.23}
+{"step": 191, "epoch": 1, "loss": 0.587, "grad_norm": 0.381, "lr": 6.390606693982855e-05, "min": 27.75, "vram_gb": 6.23}
+{"step": 201, "epoch": 1, "loss": 0.5708, "grad_norm": 0.398, "lr": 5.386588370213124e-05, "min": 29.22, "vram_gb": 6.23}
+{"step": 211, "epoch": 1, "loss": 0.5778, "grad_norm": 0.441, "lr": 4.438570614135994e-05, "min": 30.68, "vram_gb": 6.23}
+{"step": 221, "epoch": 1, "loss": 0.5894, "grad_norm": 0.407, "lr": 3.558061077091359e-05, "min": 32.13, "vram_gb": 6.23}
+{"step": 231, "epoch": 1, "loss": 0.5847, "grad_norm": 0.436, "lr": 2.7557479520891104e-05, "min": 33.6, "vram_gb": 6.23}
+{"step": 241, "epoch": 1, "loss": 0.5692, "grad_norm": 0.35, "lr": 2.0413702336246154e-05, "min": 35.02, "vram_gb": 6.23}
+{"step": 251, "epoch": 1, "loss": 0.5307, "grad_norm": 0.418, "lr": 1.4235994994783297e-05, "min": 36.47, "vram_gb": 6.23}
+{"step": 261, "epoch": 1, "loss": 0.6068, "grad_norm": 0.315, "lr": 9.09934649508375e-06, "min": 37.92, "vram_gb": 6.23}
+{"step": 271, "epoch": 1, "loss": 0.6277, "grad_norm": 0.411, "lr": 5.066108791645408e-06, "min": 39.39, "vram_gb": 6.23}
+{"step": 281, "epoch": 1, "loss": 0.4999, "grad_norm": 0.456, "lr": 2.1852399266194314e-06, "min": 40.82, "vram_gb": 6.23}
+{"step": 291, "epoch": 1, "loss": 0.5175, "grad_norm": 0.39, "lr": 4.917097454988584e-07, "min": 42.25, "vram_gb": 6.23}
+{"step": 300, "epoch": 1, "loss": 0.641, "grad_norm": 0.473, "lr": 0.0, "min": 43.57, "vram_gb": 6.23}
+RUN {"setup": "E1", "trainable_params": 33030144, "trainable_groups": {"lora_llm": 33030144, "lora_vit": 0, "projector": 0, "other": 0}, "lora_modules": 252, "peak_vram_gb": 6.23, "train_minutes": 43.6, "r": 16, "alpha": 32, "lr": 0.0002, "batch_size": 2, "grad_accum": 4, "max_steps": 300, "train_images": 1422, "train_fraction": 1.0, "coord": "norm1000", "seed": 42, "gpu": "Tesla T4"}
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 1/713 [00:00<10:45,  1.10it/s]Loading weights:   0%|          | 3/713 [00:01<03:19,  3.56it/s]Loading weights:   1%|          | 5/713 [00:01<01:58,  5.95it/s]Loading weights:   2%|▏         | 14/713 [00:01<00:34, 20.08it/s]Loading weights:   3%|▎         | 18/713 [00:01<00:30, 23.00it/s]Loading weights:   4%|▎         | 25/713 [00:01<00:21, 32.63it/s]Loading weights:   4%|▍         | 30/713 [00:01<00:19, 34.55it/s]Loading weights:   5%|▌         | 37/713 [00:01<00:17, 37.99it/s]Loading weights:   7%|▋         | 47/713 [00:01<00:14, 47.11it/s]Loading weights:   7%|▋         | 53/713 [00:02<00:13, 47.15it/s]Loading weights:   8%|▊         | 59/713 [00:02<00:13, 47.24it/s]Loading weights:  10%|▉         | 69/713 [00:02<00:11, 53.69it/s]Loading weights:  11%|█         | 75/713 [00:02<00:12, 51.20it/s]Loading weights:  11%|█▏        | 81/713 [00:02<00:12, 49.56it/s]Loading weights:  13%|█▎        | 91/713 [00:02<00:11, 55.23it/s]Loading weights:  14%|█▎        | 97/713 [00:02<00:11, 52.23it/s]Loading weights:  14%|█▍        | 103/713 [00:03<00:12, 50.17it/s]Loading weights:  16%|█▌        | 113/713 [00:03<00:10, 55.10it/s]Loading weights:  17%|█▋        | 119/713 [00:03<00:11, 52.08it/s]Loading weights:  18%|█▊        | 125/713 [00:03<00:11, 49.77it/s]Loading weights:  19%|█▊        | 133/713 [00:03<00:10, 56.85it/s]Loading weights:  19%|█▉        | 139/713 [00:03<00:11, 49.19it/s]Loading weights:  20%|██        | 146/713 [00:03<00:10, 53.40it/s]Loading weights:  21%|██▏       | 152/713 [00:03<00:11, 49.43it/s]Loading weights:  22%|██▏       | 158/713 [00:04<00:11, 46.62it/s]Loading weights:  23%|██▎       | 165/713 [00:04<00:10, 51.83it/s]Loading weights:  24%|██▍       | 171/713 [00:04<00:12, 43.79it/s]Loading weights:  25%|██▌       | 179/713 [00:04<00:10, 51.27it/s]Loading weights:  26%|██▌       | 185/713 [00:04<00:10, 48.08it/s]Loading weights:  27%|██▋       | 191/713 [00:04<00:11, 45.83it/s]Loading weights:  28%|██▊       | 198/713 [00:04<00:10, 51.26it/s]Loading weights:  29%|██▊       | 204/713 [00:05<00:11, 43.58it/s]Loading weights:  30%|██▉       | 212/713 [00:05<00:09, 51.02it/s]Loading weights:  31%|███       | 218/713 [00:05<00:10, 47.82it/s]Loading weights:  31%|███▏      | 224/713 [00:05<00:10, 45.38it/s]Loading weights:  32%|███▏      | 231/713 [00:05<00:09, 50.78it/s]Loading weights:  33%|███▎      | 237/713 [00:05<00:10, 43.48it/s]Loading weights:  34%|███▍      | 245/713 [00:05<00:09, 50.90it/s]Loading weights:  35%|███▌      | 251/713 [00:06<00:09, 47.84it/s]Loading weights:  36%|███▌      | 257/713 [00:06<00:09, 45.89it/s]Loading weights:  37%|███▋      | 264/713 [00:06<00:08, 51.43it/s]Loading weights:  38%|███▊      | 270/713 [00:06<00:10, 43.88it/s]Loading weights:  39%|███▉      | 278/713 [00:06<00:08, 51.42it/s]Loading weights:  40%|███▉      | 284/713 [00:06<00:08, 48.72it/s]Loading weights:  41%|████      | 290/713 [00:06<00:09, 46.35it/s]Loading weights:  42%|████▏     | 297/713 [00:06<00:08, 51.79it/s]Loading weights:  42%|████▏     | 303/713 [00:07<00:09, 44.00it/s]Loading weights:  44%|████▎     | 311/713 [00:07<00:07, 51.44it/s]Loading weights:  44%|████▍     | 317/713 [00:07<00:08, 48.11it/s]Loading weights:  45%|████▌     | 323/713 [00:07<00:08, 45.93it/s]Loading weights:  46%|████▋     | 330/713 [00:07<00:07, 51.44it/s]Loading weights:  47%|████▋     | 336/713 [00:07<00:08, 43.30it/s]Loading weights:  48%|████▊     | 344/713 [00:07<00:07, 50.72it/s]Loading weights:  49%|████▉     | 350/713 [00:08<00:07, 47.91it/s]Loading weights:  50%|████▉     | 356/713 [00:08<00:07, 45.96it/s]Loading weights:  51%|█████     | 363/713 [00:08<00:06, 51.48it/s]Loading weights:  52%|█████▏    | 369/713 [00:08<00:07, 43.70it/s]Loading weights:  53%|█████▎    | 377/713 [00:08<00:06, 51.00it/s]Loading weights:  54%|█████▎    | 383/713 [00:08<00:06, 48.09it/s]Loading weights:  55%|█████▍    | 389/713 [00:08<00:07, 45.89it/s]Loading weights:  56%|█████▌    | 396/713 [00:09<00:06, 51.45it/s]Loading weights:  63%|██████▎   | 452/713 [00:09<00:01, 178.48it/s]Loading weights:  72%|███████▏  | 512/713 [00:09<00:00, 287.14it/s]Loading weights:  80%|████████  | 572/713 [00:09<00:00, 370.10it/s]Loading weights:  89%|████████▊ | 632/713 [00:09<00:00, 429.58it/s]Loading weights:  96%|█████████▋| 688/713 [00:09<00:00, 430.73it/s]Loading weights: 100%|██████████| 713/713 [00:09<00:00, 73.02it/s] 
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  8/311 ảnh, 12s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  16/311 ảnh, 22s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  24/311 ảnh, 63s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  32/311 ảnh, 83s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  40/311 ảnh, 124s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  48/311 ảnh, 135s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  56/311 ảnh, 146s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  64/311 ảnh, 157s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  72/311 ảnh, 168s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  80/311 ảnh, 178s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  88/311 ảnh, 189s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  96/311 ảnh, 213s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  104/311 ảnh, 224s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  112/311 ảnh, 235s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  120/311 ảnh, 245s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  128/311 ảnh, 269s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  136/311 ảnh, 284s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  144/311 ảnh, 299s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  152/311 ảnh, 310s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  160/311 ảnh, 321s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  168/311 ảnh, 336s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  176/311 ảnh, 347s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  184/311 ảnh, 358s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  192/311 ảnh, 368s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  200/311 ảnh, 379s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  208/311 ảnh, 386s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  216/311 ảnh, 397s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  224/311 ảnh, 417s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  232/311 ảnh, 436s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  240/311 ảnh, 455s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  248/311 ảnh, 496s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  256/311 ảnh, 511s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  264/311 ảnh, 530s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  272/311 ảnh, 545s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  280/311 ảnh, 561s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  288/311 ảnh, 575s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  296/311 ảnh, 586s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  304/311 ảnh, 597s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  311/311 ảnh, 608s
+vlcsnap-00200 -> '[{"label":"manhole","bbox_2d":[759,644,850,706]},{"label":"manhole","bbox_2d":[906,772,1000,842]}]'
+vlcsnap-00201 -> '[{"label":"crack","bbox_2d":[228,589,336,711]}]'
+vlcsnap-00202 -> '[{"label":"manhole","bbox_2d":[298,669,398,733]}]'
+vlcsnap-00203 -> '[{"label":"crack","bbox_2d":[484,553,555,636]},{"label":"crack","bbox_2d":[555,600,636,686]}]'
+vlcsnap-00204 -> '[{"label":"manhole","bbox_2d":[250,622,348,672]}]'
+<<< rc=0 (python -m lab.train --setup E1 --out work/E1 && python -m la)
+>>> python -m lab.train --setup E1 --out work/E4_data_0.1 --train-fraction 0.1 && python -m lab.infer --adapter work/E4_data_0.1/adapter --out work/e4_data_0.1.jsonl
+E1: 142 ảnh train, r=16 alpha=32 lr=0.0002 bs=2x4 steps=300 coord=norm1000
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 1/713 [00:00<10:54,  1.09it/s]Loading weights:   0%|          | 3/713 [00:01<03:22,  3.51it/s]Loading weights:   1%|          | 5/713 [00:01<02:00,  5.88it/s]Loading weights:   2%|▏         | 14/713 [00:01<00:35, 19.94it/s]Loading weights:   3%|▎         | 18/713 [00:01<00:30, 22.85it/s]Loading weights:   4%|▎         | 25/713 [00:01<00:21, 32.45it/s]Loading weights:   4%|▍         | 30/713 [00:01<00:19, 34.22it/s]Loading weights:   5%|▌         | 36/713 [00:01<00:16, 40.10it/s]Loading weights:   6%|▌         | 41/713 [00:01<00:16, 40.28it/s]Loading weights:   7%|▋         | 48/713 [00:02<00:15, 43.23it/s]Loading weights:   8%|▊         | 56/713 [00:02<00:12, 52.05it/s]Loading weights:   9%|▊         | 62/713 [00:02<00:14, 44.34it/s]Loading weights:  10%|▉         | 69/713 [00:02<00:12, 49.76it/s]Loading weights:  11%|█         | 75/713 [00:02<00:13, 47.09it/s]Loading weights:  11%|█▏        | 81/713 [00:02<00:13, 45.21it/s]Loading weights:  12%|█▏        | 88/713 [00:02<00:12, 50.83it/s]Loading weights:  13%|█▎        | 94/713 [00:02<00:13, 44.29it/s]Loading weights:  14%|█▍        | 103/713 [00:03<00:12, 48.44it/s]Loading weights:  16%|█▌        | 113/713 [00:03<00:11, 53.74it/s]Loading weights:  17%|█▋        | 119/713 [00:03<00:11, 51.35it/s]Loading weights:  18%|█▊        | 125/713 [00:03<00:11, 49.69it/s]Loading weights:  19%|█▉        | 135/713 [00:03<00:10, 54.80it/s]Loading weights:  20%|█▉        | 141/713 [00:03<00:10, 52.18it/s]Loading weights:  21%|██        | 147/713 [00:03<00:11, 50.03it/s]Loading weights:  22%|██▏       | 157/713 [00:04<00:10, 55.26it/s]Loading weights:  23%|██▎       | 163/713 [00:04<00:10, 52.40it/s]Loading weights:  24%|██▎       | 169/713 [00:04<00:10, 50.68it/s]Loading weights:  25%|██▌       | 179/713 [00:04<00:09, 54.85it/s]Loading weights:  26%|██▌       | 185/713 [00:04<00:10, 51.74it/s]Loading weights:  27%|██▋       | 191/713 [00:04<00:10, 49.60it/s]Loading weights:  28%|██▊       | 199/713 [00:04<00:09, 56.46it/s]Loading weights:  29%|██▉       | 205/713 [00:05<00:10, 47.10it/s]Loading weights:  30%|██▉       | 213/713 [00:05<00:10, 48.57it/s]Loading weights:  31%|███▏      | 223/713 [00:05<00:09, 54.38it/s]Loading weights:  32%|███▏      | 229/713 [00:05<00:09, 52.18it/s]Loading weights:  33%|███▎      | 235/713 [00:05<00:09, 50.65it/s]Loading weights:  34%|███▍      | 245/713 [00:05<00:08, 55.51it/s]Loading weights:  35%|███▌      | 251/713 [00:05<00:08, 52.68it/s]Loading weights:  36%|███▌      | 257/713 [00:06<00:09, 50.38it/s]Loading weights:  37%|███▋      | 267/713 [00:06<00:08, 55.15it/s]Loading weights:  38%|███▊      | 273/713 [00:06<00:08, 52.35it/s]Loading weights:  39%|███▉      | 279/713 [00:06<00:08, 50.12it/s]Loading weights:  41%|████      | 289/713 [00:06<00:07, 55.14it/s]Loading weights:  41%|████▏     | 295/713 [00:06<00:07, 52.65it/s]Loading weights:  42%|████▏     | 301/713 [00:06<00:08, 50.59it/s]Loading weights:  44%|████▎     | 311/713 [00:07<00:07, 55.96it/s]Loading weights:  44%|████▍     | 317/713 [00:07<00:07, 52.96it/s]Loading weights:  45%|████▌     | 323/713 [00:07<00:07, 49.17it/s]Loading weights:  47%|████▋     | 333/713 [00:07<00:06, 54.29it/s]Loading weights:  48%|████▊     | 339/713 [00:07<00:07, 51.60it/s]Loading weights:  48%|████▊     | 345/713 [00:07<00:07, 49.49it/s]Loading weights:  50%|████▉     | 355/713 [00:07<00:06, 54.56it/s]Loading weights:  51%|█████     | 361/713 [00:08<00:06, 51.17it/s]Loading weights:  51%|█████▏    | 367/713 [00:08<00:06, 49.55it/s]Loading weights:  52%|█████▏    | 374/713 [00:08<00:06, 53.41it/s]Loading weights:  53%|█████▎    | 380/713 [00:08<00:07, 44.00it/s]Loading weights:  54%|█████▍    | 388/713 [00:08<00:06, 50.45it/s]Loading weights:  55%|█████▌    | 394/713 [00:08<00:06, 46.70it/s]Loading weights:  62%|██████▏   | 440/713 [00:08<00:01, 139.55it/s]Loading weights:  70%|██████▉   | 496/713 [00:08<00:00, 241.56it/s]Loading weights:  77%|███████▋  | 548/713 [00:09<00:00, 310.69it/s]Loading weights:  87%|████████▋ | 620/713 [00:09<00:00, 415.02it/s]Loading weights:  96%|█████████▋| 688/713 [00:09<00:00, 451.18it/s]Loading weights: 100%|██████████| 713/713 [00:09<00:00, 75.08it/s] 
+LoRA khớp 252 module; tham số huấn luyện 33,030,144 {'lora_llm': 33030144, 'lora_vit': 0, 'projector': 0, 'other': 0}
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+{"step": 1, "epoch": 0, "loss": 2.1203, "grad_norm": 5.987, "lr": 2.6666666666666667e-05, "min": 0.15, "vram_gb": 5.24}
+{"step": 11, "epoch": 0, "loss": 0.7944, "grad_norm": 0.56, "lr": 0.00016, "min": 1.52, "vram_gb": 5.69}
+{"step": 21, "epoch": 1, "loss": 0.747, "grad_norm": 0.493, "lr": 0.00019978136272187747, "min": 2.93, "vram_gb": 5.8}
+{"step": 31, "epoch": 1, "loss": 0.6831, "grad_norm": 0.885, "lr": 0.00019844870667325073, "min": 4.39, "vram_gb": 5.8}
+{"step": 41, "epoch": 2, "loss": 0.5909, "grad_norm": 0.443, "lr": 0.00019592101668776298, "min": 5.82, "vram_gb": 5.8}
+{"step": 51, "epoch": 2, "loss": 0.5891, "grad_norm": 0.668, "lr": 0.00019222897549773848, "min": 7.26, "vram_gb": 5.8}
+{"step": 61, "epoch": 3, "loss": 0.6139, "grad_norm": 0.567, "lr": 0.00018741739948185257, "min": 8.71, "vram_gb": 5.8}
+{"step": 71, "epoch": 3, "loss": 0.5256, "grad_norm": 0.778, "lr": 0.00018154469465500448, "min": 10.13, "vram_gb": 5.8}
+{"step": 81, "epoch": 4, "loss": 0.4448, "grad_norm": 1.41, "lr": 0.00017468214769841538, "min": 11.59, "vram_gb": 5.8}
+{"step": 91, "epoch": 5, "loss": 0.3873, "grad_norm": 0.658, "lr": 0.00016691306063588583, "min": 13.03, "vram_gb": 5.8}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{"step": 101, "epoch": 5, "loss": 0.5362, "grad_norm": 1.579, "lr": 0.00015833173966007066, "min": 14.48, "vram_gb": 5.8}
+{"step": 111, "epoch": 6, "loss": 0.4555, "grad_norm": 1.035, "lr": 0.0001490423503830508, "min": 15.93, "vram_gb": 5.8}
+{"step": 121, "epoch": 6, "loss": 0.4484, "grad_norm": 1.665, "lr": 0.00013915765340690914, "min": 17.36, "vram_gb": 5.8}
+{"step": 131, "epoch": 7, "loss": 0.3013, "grad_norm": 1.286, "lr": 0.0001287976355627706, "min": 18.81, "vram_gb": 5.8}
+{"step": 141, "epoch": 7, "loss": 0.3095, "grad_norm": 1.239, "lr": 0.00011808805343321099, "min": 20.26, "vram_gb": 5.8}
+{"step": 151, "epoch": 8, "loss": 0.2294, "grad_norm": 1.853, "lr": 0.00010715890683769869, "min": 21.71, "vram_gb": 5.8}
+{"step": 161, "epoch": 9, "loss": 0.1878, "grad_norm": 1.526, "lr": 9.614286081088896e-05, "min": 23.15, "vram_gb": 5.8}
+{"step": 171, "epoch": 9, "loss": 0.1625, "grad_norm": 4.229, "lr": 8.517363522881582e-05, "min": 24.61, "vram_gb": 5.8}
+{"step": 181, "epoch": 10, "loss": 0.0893, "grad_norm": 1.51, "lr": 7.438438163073884e-05, "min": 26.06, "vram_gb": 5.8}
+{"step": 191, "epoch": 10, "loss": 0.0741, "grad_norm": 1.444, "lr": 6.390606693982855e-05, "min": 27.49, "vram_gb": 5.8}
+{"step": 201, "epoch": 11, "loss": 0.0363, "grad_norm": 1.137, "lr": 5.386588370213124e-05, "min": 28.93, "vram_gb": 5.8}
+{"step": 211, "epoch": 11, "loss": 0.0351, "grad_norm": 1.196, "lr": 4.438570614135994e-05, "min": 30.39, "vram_gb": 5.8}
+{"step": 221, "epoch": 12, "loss": 0.0289, "grad_norm": 1.112, "lr": 3.558061077091359e-05, "min": 31.83, "vram_gb": 5.8}
+{"step": 231, "epoch": 13, "loss": 0.0216, "grad_norm": 0.834, "lr": 2.7557479520891104e-05, "min": 33.27, "vram_gb": 5.8}
+{"step": 241, "epoch": 13, "loss": 0.0132, "grad_norm": 0.444, "lr": 2.0413702336246154e-05, "min": 34.7, "vram_gb": 5.8}
+{"step": 251, "epoch": 14, "loss": 0.0081, "grad_norm": 0.203, "lr": 1.4235994994783297e-05, "min": 36.14, "vram_gb": 5.8}
+{"step": 261, "epoch": 14, "loss": 0.0094, "grad_norm": 0.346, "lr": 9.09934649508375e-06, "min": 37.55, "vram_gb": 5.8}
+{"step": 271, "epoch": 15, "loss": 0.005, "grad_norm": 0.192, "lr": 5.066108791645408e-06, "min": 38.96, "vram_gb": 5.8}
+{"step": 281, "epoch": 15, "loss": 0.0132, "grad_norm": 0.394, "lr": 2.1852399266194314e-06, "min": 40.37, "vram_gb": 5.8}
+{"step": 291, "epoch": 16, "loss": 0.0112, "grad_norm": 0.208, "lr": 4.917097454988584e-07, "min": 41.8, "vram_gb": 5.8}
+{"step": 300, "epoch": 16, "loss": 0.0052, "grad_norm": 0.174, "lr": 0.0, "min": 43.09, "vram_gb": 5.8}
+RUN {"setup": "E1", "trainable_params": 33030144, "trainable_groups": {"lora_llm": 33030144, "lora_vit": 0, "projector": 0, "other": 0}, "lora_modules": 252, "peak_vram_gb": 5.8, "train_minutes": 43.1, "r": 16, "alpha": 32, "lr": 0.0002, "batch_size": 2, "grad_accum": 4, "max_steps": 300, "train_images": 142, "train_fraction": 0.1, "coord": "norm1000", "seed": 42, "gpu": "Tesla T4"}
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 1/713 [00:00<08:05,  1.47it/s]Loading weights:   0%|          | 3/713 [00:00<02:33,  4.63it/s]Loading weights:   1%|▏         | 9/713 [00:00<00:46, 14.99it/s]Loading weights:   2%|▏         | 15/713 [00:01<00:29, 23.81it/s]Loading weights:   4%|▎         | 25/713 [00:01<00:17, 38.86it/s]Loading weights:   4%|▍         | 31/713 [00:01<00:15, 42.97it/s]Loading weights:   5%|▌         | 37/713 [00:01<00:14, 46.12it/s]Loading weights:   7%|▋         | 47/713 [00:01<00:11, 56.14it/s]Loading weights:   8%|▊         | 54/713 [00:01<00:11, 58.27it/s]Loading weights:   9%|▊         | 61/713 [00:01<00:12, 53.14it/s]Loading weights:  10%|▉         | 70/713 [00:01<00:11, 57.47it/s]Loading weights:  11%|█         | 80/713 [00:02<00:09, 63.50it/s]Loading weights:  12%|█▏        | 87/713 [00:02<00:09, 63.25it/s]Loading weights:  13%|█▎        | 94/713 [00:02<00:10, 56.27it/s]Loading weights:  14%|█▍        | 103/713 [00:02<00:10, 60.36it/s]Loading weights:  16%|█▌        | 113/713 [00:02<00:09, 65.41it/s]Loading weights:  17%|█▋        | 120/713 [00:02<00:09, 64.36it/s]Loading weights:  18%|█▊        | 127/713 [00:02<00:10, 57.82it/s]Loading weights:  19%|█▉        | 136/713 [00:02<00:09, 62.00it/s]Loading weights:  20%|██        | 146/713 [00:03<00:08, 67.28it/s]Loading weights:  21%|██▏       | 153/713 [00:03<00:08, 66.21it/s]Loading weights:  22%|██▏       | 160/713 [00:03<00:09, 57.93it/s]Loading weights:  24%|██▎       | 169/713 [00:03<00:08, 62.11it/s]Loading weights:  25%|██▌       | 179/713 [00:03<00:07, 67.26it/s]Loading weights:  26%|██▌       | 186/713 [00:03<00:07, 66.47it/s]Loading weights:  27%|██▋       | 193/713 [00:03<00:08, 59.26it/s]Loading weights:  28%|██▊       | 202/713 [00:03<00:08, 62.97it/s]Loading weights:  30%|██▉       | 212/713 [00:04<00:07, 67.80it/s]Loading weights:  31%|███       | 219/713 [00:04<00:07, 66.80it/s]Loading weights:  32%|███▏      | 226/713 [00:04<00:08, 59.07it/s]Loading weights:  33%|███▎      | 235/713 [00:04<00:07, 62.78it/s]Loading weights:  34%|███▍      | 245/713 [00:04<00:06, 67.47it/s]Loading weights:  35%|███▌      | 252/713 [00:04<00:06, 66.46it/s]Loading weights:  36%|███▋      | 259/713 [00:04<00:07, 58.90it/s]Loading weights:  38%|███▊      | 268/713 [00:05<00:07, 62.73it/s]Loading weights:  39%|███▉      | 278/713 [00:05<00:06, 68.00it/s]Loading weights:  40%|███▉      | 285/713 [00:05<00:06, 67.35it/s]Loading weights:  41%|████      | 292/713 [00:05<00:07, 59.55it/s]Loading weights:  42%|████▏     | 301/713 [00:05<00:06, 63.28it/s]Loading weights:  44%|████▎     | 311/713 [00:05<00:05, 67.87it/s]Loading weights:  45%|████▍     | 318/713 [00:05<00:05, 67.00it/s]Loading weights:  46%|████▌     | 325/713 [00:05<00:06, 59.67it/s]Loading weights:  47%|████▋     | 334/713 [00:06<00:05, 63.66it/s]Loading weights:  48%|████▊     | 344/713 [00:06<00:05, 68.65it/s]Loading weights:  49%|████▉     | 351/713 [00:06<00:05, 67.20it/s]Loading weights:  50%|█████     | 358/713 [00:06<00:05, 59.60it/s]Loading weights:  51%|█████▏    | 367/713 [00:06<00:05, 63.42it/s]Loading weights:  53%|█████▎    | 377/713 [00:06<00:04, 67.78it/s]Loading weights:  54%|█████▍    | 384/713 [00:06<00:04, 67.40it/s]Loading weights:  55%|█████▍    | 391/713 [00:06<00:05, 59.93it/s]Loading weights:  64%|██████▎   | 453/713 [00:07<00:01, 197.98it/s]Loading weights:  75%|███████▌  | 536/713 [00:07<00:00, 360.94it/s]Loading weights:  87%|████████▋ | 620/713 [00:07<00:00, 487.89it/s]Loading weights:  96%|█████████▋| 688/713 [00:07<00:00, 525.57it/s]Loading weights: 100%|██████████| 713/713 [00:07<00:00, 95.34it/s] 
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  8/311 ảnh, 11s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  16/311 ảnh, 22s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  24/311 ảnh, 36s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  32/311 ảnh, 52s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  40/311 ảnh, 70s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  48/311 ảnh, 89s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  56/311 ảnh, 115s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  64/311 ảnh, 134s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  72/311 ảnh, 153s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  80/311 ảnh, 167s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  88/311 ảnh, 194s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  96/311 ảnh, 212s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  104/311 ảnh, 231s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  112/311 ảnh, 254s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  120/311 ảnh, 269s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  128/311 ảnh, 284s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  136/311 ảnh, 303s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  144/311 ảnh, 322s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  152/311 ảnh, 345s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  160/311 ảnh, 360s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  168/311 ảnh, 383s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  176/311 ảnh, 397s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  184/311 ảnh, 416s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  192/311 ảnh, 435s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  200/311 ảnh, 445s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  208/311 ảnh, 460s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  216/311 ảnh, 483s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  224/311 ảnh, 506s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  232/311 ảnh, 525s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  240/311 ảnh, 544s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  248/311 ảnh, 571s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  256/311 ảnh, 590s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  264/311 ảnh, 609s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  272/311 ảnh, 628s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  280/311 ảnh, 643s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  288/311 ảnh, 658s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  296/311 ảnh, 677s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  304/311 ảnh, 691s
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  311/311 ảnh, 702s
+vlcsnap-00200 -> '[{"label":"manhole","bbox_2d":[759,642,848,694]},{"label":"manhole","bbox_2d":[909,772,1000,831]}]'
+vlcsnap-00201 -> '[{"label":"crack","bbox_2d":[178,619,323,736]},{"label":"crack","bbox_2d":[522,647,666,778]}]'
+vlcsnap-00202 -> '[{"label":"manhole","bbox_2d":[284,661,406,728]}]'
+vlcsnap-00203 -> '[{"label":"crack","bbox_2d":[333,556,438,717]},{"label":"crack","bbox_2d":[49,597,228,736]}]'
+vlcsnap-00204 -> '[{"label":"manhole","bbox_2d":[245,619,353,672]}]'
+<<< rc=0 (python -m lab.train --setup E1 --out work/E4_data_0.1 --trai)

@@ -1,0 +1,51 @@
+{
+ "n": 311,
+ "format": {
+  "invalid_json": 0,
+  "markdown_fence": 0,
+  "extra_text": 0,
+  "empty_list": 0,
+  "chars_mean": 78.6
+ },
+ "pred_boxes_per_image": 1.66,
+ "gt_boxes_per_image": 1.87,
+ "pred_labels": {
+  "crack": 316,
+  "manhole": 124,
+  "pothole": 77
+ },
+ "boxes_width_ge_900": 0,
+ "fp_kinds": {
+  "bịa box (không chồng GT)": 127,
+  "lệch vị trí (0.1≤IoU<0.5 cùng lớp)": 122,
+  "sai lớp (IoU≥0.5 với GT lớp khác)": 37
+ },
+ "recall_by_size": {
+  "crack | lớn ≥2%": "61/148 = 0.41",
+  "crack | nhỏ <0.5%": "1/15 = 0.07",
+  "crack | vừa 0.5–2%": "38/136 = 0.28",
+  "manhole | lớn ≥2%": "2/3 = 0.67",
+  "manhole | nhỏ <0.5%": "29/64 = 0.45",
+  "manhole | vừa 0.5–2%": "67/96 = 0.70",
+  "pothole | lớn ≥2%": "5/7 = 0.71",
+  "pothole | nhỏ <0.5%": "20/68 = 0.29",
+  "pothole | vừa 0.5–2%": "8/46 = 0.17"
+ },
+ "gt_area_median_pct": {
+  "crack": 1.98,
+  "manhole": 0.67,
+  "pothole": 0.42
+ },
+ "score": {
+  "parse_valid_rate": 1.0,
+  "micro": {
+   "precision": 0.44680851063829785,
+   "recall": 0.39622641509433965,
+   "f1": 0.42000000000000004,
+   "tp": 231,
+   "fp": 286,
+   "fn": 352
+  },
+  "fp_per_image": 0.9196141479099679
+ }
+}

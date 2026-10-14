@@ -1,0 +1,24 @@
+{
+  "setup": "E1",
+  "trainable_params": 33030144,
+  "trainable_groups": {
+    "lora_llm": 33030144,
+    "lora_vit": 0,
+    "projector": 0,
+    "other": 0
+  },
+  "lora_modules": 252,
+  "peak_vram_gb": 6.23,
+  "train_minutes": 43.6,
+  "r": 16,
+  "alpha": 32,
+  "lr": 0.0002,
+  "batch_size": 2,
+  "grad_accum": 4,
+  "max_steps": 300,
+  "train_images": 1422,
+  "train_fraction": 1.0,
+  "coord": "norm1000",
+  "seed": 42,
+  "gpu": "Tesla T4"
+}
